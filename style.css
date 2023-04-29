@@ -67,7 +67,7 @@ section {
 .item-text p {
   margin: 0 40px 40px 40px;
   font-family: 'Space Grotesk', sans-serif;
-  font-size: 1.5em;
+  font-size: 1.6em;
 }
 
 @media screen and (max-width: 1024px) {
@@ -113,12 +113,12 @@ section {
 
   .item-text h1 {
     margin: 0 0 20px 0;
-    font-size: 2em;
+    font-size: 2.6em;
   }
 
   .item-text h2 {
     margin: 20px 0 0 0;
-    font-size: 1.5em;
+    font-size: 1.8em;
   }
 
   .item-text p {
