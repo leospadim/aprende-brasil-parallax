@@ -59,13 +59,76 @@ section {
 }
 
 .item-text h2 {
-  margin: 80px 0 0 0;
+  margin: 20px 0 0 0;
   padding: 0;
   font-size: 3em;
 }
 
 .item-text p {
-  margin: 0 40px 20px 40px;
-  font-size: 1.5em;
+  margin: 0 40px 40px 40px;
   font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.5em;
+}
+
+@media screen and (max-width: 1024px) {
+  .item-text h1 {
+    font-size: 4em;
+  }
+
+  .item-text h2 {
+    font-size: 2em;
+  }
+
+  .item-text p {
+    font-size: 1em;
+  }
+
+  .item-image {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .item-text h1 {
+    font-size: 3em;
+  }
+
+  .item-text h2 {
+    font-size: 2em;
+  }
+
+  .item-text p {
+    font-size: 1em;
+  }
+
+  .item-image {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .item {
+    flex-direction: column;
+  }
+
+  .item-text h1 {
+    margin: 0 0 20px 0;
+    font-size: 2em;
+  }
+
+  .item-text h2 {
+    margin: 20px 0 0 0;
+    font-size: 1.5em;
+  }
+
+  .item-text p {
+    margin: 0 20px 20px 20px;
+    font-size: 1em;
+  }
+
+  .item-image {
+    max-width: 160px;
+    max-height: 160px;
+    margin: 0 0 10px 0;
+  }
 }
